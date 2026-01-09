@@ -1,26 +1,28 @@
-# Galeria de Bandeiras do Brasil 🇧🇷
+Aplicação web responsiva que renderiza uma galeria de bandeiras dos estados brasileiros a partir de um conjunto de dados JSON, permitindo filtragem em tempo real.
 
-Este é um projeto que fiz para colocar em prática o que estou aprendendo sobre desenvolvimento web. A ideia foi criar uma página onde você pudesse ver as bandeiras de todos os estados brasileiros de um jeito organizado e buscar por elas rapidamente.
+## 💻 Tecnologias
+* **HTML5**: Estruturação semântica.
+* **CSS3**: Layout via **CSS Grid** e **Flexbox** para responsividade.
+* **JavaScript (ES6+)**: Manipulação dinâmica do DOM e métodos de array (`filter`, `forEach`).
 
-## 📝 O que eu quis resolver com esse código?
+## ⚙️ Funcionalidades
+* **Renderização Dinâmica**: Os cartões de fotos são gerados via JavaScript, evitando repetição de código no HTML.
+* **Search Engine**: Filtro *case-insensitive* que atualiza o grid a cada tecla digitada (evento de `input`).
+* **Interface Responsiva**: Grid adaptável que ajusta o número de colunas conforme a largura da tela (uso de `minmax` e `auto-fill`).
 
-Eu queria que o usuário não precisasse ficar procurando visualmente uma bandeira no meio de 27 fotos. Então, foquei em duas coisas:
-1.  **Layout que se adapta:** Usei CSS Grid para que as fotos fiquem alinhadas sozinhas, não importa o tamanho da tela.
-2.  **Busca rápida:** Criei um filtro em JavaScript que atualiza a tela enquanto você digita. Se o estado não existir, o site te avisa com uma mensagem amigável.
+## 📂 Estrutura de Pastas
+```text
+/
+├── index.html        # Estrutura principal
+├── Mstyle.css        # Estilização e Grid
+├── Mscript.js        # Lógica de busca e renderização
+└── imgs/             # Assets (Bandeiras)
 
-## 🛠️ Tecnologias que usei
+🚀 Como Executar
+Clone o repositório ou baixe os arquivos.
 
-Tentei manter o projeto "raiz", usando as tecnologias base da web:
-* **HTML5** para a estrutura.
-* **CSS3** para o visual (adicionei um efeito de sombra e um leve zoom quando você passa o mouse, para ficar mais interativo).
-* **JavaScript** para a lógica da busca e para "desenhar" as fotos na tela dinamicamente.
+Certifique-se de que a estrutura de pastas das imagens (/imgs) está no mesmo diretório dos arquivos de código.
 
-## 🚀 Como abrir o projeto
+Abra o arquivo index.html em qualquer navegador moderno.
 
-Não precisa instalar nada! 
-1. Baixe os arquivos do repositório.
-2. Procure o arquivo chamado `index.html`.
-3. Clique duas vezes nele e ele vai abrir direto no seu navegador.
-
----
-Projeto desenvolvido por Diego Oliveira
+Desenvolvido por Diego Oliveira
