@@ -19,6 +19,7 @@ Aplicação web responsiva que renderiza uma galeria de bandeiras dos estados br
 ├── Mstyle.css        # Estilização e Grid
 ├── Mscript.js        # Lógica de busca e renderização
 └── imgs/             # Assets (Bandeiras)
+```
 
 🚀 Como Executar
 Clone o repositório ou baixe os arquivos.
