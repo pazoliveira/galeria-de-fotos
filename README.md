@@ -1,3 +1,5 @@
+# Galeria de Bandeiras - Brasil
+
 Aplicação web responsiva que renderiza uma galeria de bandeiras dos estados brasileiros a partir de um conjunto de dados JSON, permitindo filtragem em tempo real.
 
 ## 💻 Tecnologias
