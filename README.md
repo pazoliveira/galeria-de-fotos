@@ -21,11 +21,17 @@ Aplicação web responsiva que renderiza uma galeria de bandeiras dos estados br
 └── imgs/             # Assets (Bandeiras)
 ```
 
-🚀 Como Executar
-Clone o repositório ou baixe os arquivos.
+# Galeria de Bandeiras - Brasil 🇧🇷
 
-Certifique-se de que a estrutura de pastas das imagens (/imgs) está no mesmo diretório dos arquivos de código.
+Este projeto foi desenvolvido como requisito para a disciplina de Desenvolvimento Web. O objetivo é criar uma interface funcional que demonstre o uso de tecnologias fundamentais de Front-end para manipulação de dados e interface.
 
-Abra o arquivo index.html em qualquer navegador moderno.
+## 🚀 Como Executar
 
-Desenvolvido por Diego Oliveira
+Para rodar o projeto na sua máquina, siga os passos abaixo:
+
+1. **Clone o repositório** ou baixe os arquivos:
+   ```bash
+   git clone [https://github.com/seu-usuario/nome-do-seu-repositorio.git](https://github.com/seu-usuario/nome-do-seu-repositorio.git)
+Verifique a estrutura: Certifique-se de que a pasta de imagens (/imgs) está no mesmo diretório que os arquivos de código (index.html, Mstyle.css, Mscript.js).
+
+Abra a aplicação: Localize o arquivo index.html e abra-o em qualquer navegador moderno.
