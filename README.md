@@ -31,7 +31,7 @@ Para rodar o projeto na sua máquina, siga os passos abaixo:
 
 1. **Clone o repositório** ou baixe os arquivos:
    ```bash
-git clone [https://github.com/seu-usuario/nome-do-seu-repositorio.git](https://github.com/seu-usuario/nome-do-seu-repositorio.git)
+   git clone [(https://github.com/pazoliveira/galeria-de-fotos)]
 Verifique a estrutura: Certifique-se de que a pasta de imagens (/imgs) está no mesmo diretório que os arquivos de código (index.html, style.css, script.js).
 
 Abra a aplicação: Localize o arquivo index.html e abra-o em qualquer navegador moderno.
