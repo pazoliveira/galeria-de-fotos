@@ -1,31 +1,29 @@
-<!DOCTYPE html>
-<html lang="pt-br"> <head>
+<DOCTYPE html>
+
+<html lang="pt-br"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de Fotos</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1>Galeria de Fotos</h1>
-    </header>
-
+    <header> <h1> Galeria de Fotos </h1></header>
     <main>
-        <div class="busca-container">
-            <input type="text" id="campo-busca" placeholder="Digite o nome da foto">
-            <button id="btn-busca">🔍</button>
-        </div>
+       <div class="busca-container">
+            <input type="text" id="campo-buscador" placeholder="Busque as bandeiras">
+            <button id="btn-buscador">🔍</button>
+       </div>
 
-        <div id="caixa-de-fotos">
-            </div>
+        <div id="grid-de-fotos"></div>
 
-        <p id="mensagem-vazia" style="display: none;">Nenhuma foto encontrada</p>
+        <p id="msg-nenhum-resultado" style="display: none;">Nenhuma foto encontrada</p>
     </main>
 
     <footer>
         <p>&copy; 2026 Galeria de Fotos. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src='script.js'></script>
+
 </body>
 </html>

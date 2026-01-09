@@ -1,18 +1,16 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
 }
-
 body {
-    font-family: Verdana, sans-serif;
+    font-family: Verdana;
     background-color: #e6d1b6;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-
-
 header {
     background-color: #5c3407ec;
     color: white;
@@ -20,8 +18,6 @@ header {
     text-align: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
-
 main {
     flex: 1;
     width: 100%;
@@ -29,14 +25,11 @@ main {
     margin: 0 auto;    
     padding: 20px;
 }
-
-
 .busca-container {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 }
-
 #campo-buscador {
     width: 300px;
     padding: 12px;
@@ -44,46 +37,39 @@ main {
     border-radius: 8px 0 0 8px;
     outline: none;
 }
-
 #btn-buscador {
     padding: 0 20px;
-    background-color: hsla(14, 82%, 44%, 0.753);
+    background-color: #fd864fa9;
     border: none;
     border-radius: 0 8px 8px 0;
     color: white;
     cursor: pointer;
     font-size: 1.2rem;
 }
-
-
 #grid-de-fotos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 25px;
     width: 100%;
 }
-
 .cartao-foto {
-    background: white;
+    background: rgb(255, 226, 172);
     border-radius: 12px;
     overflow: hidden; 
     box-shadow: 0 4px 15px rgba(236, 215, 21, 0.05);
     transition: all 0.3s ease;
     padding-bottom: 15px;
 }
-
 .cartao-foto:hover {
     transform: translateY(-10px) scale(1.03);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
-
 .cartao-foto img {
     width: 100%;
     height: 180px;
     object-fit: cover;
     border-bottom: 1px solid #eee;
 }
-
 .cartao-foto p {
     text-align: center;
     margin-top: 15px;
@@ -91,7 +77,6 @@ main {
     color: #2c3e50;
     font-size: 1.1rem;
 }
-
 footer {
     background-color: #2c3e50;
     color: #bdc3c7;
@@ -99,11 +84,10 @@ footer {
     padding: 1.5rem;
     margin-top: 40px;
 }
-
 #msg-nenhum-resultado {
     text-align: center;
-    grid-column: 1 / -1;
+    grid-column: 1 / -1; 
     font-size: 2.2rem;
-    color: #190af0;
+    color: #2b0eca;
     margin-top: 20px;
 }
