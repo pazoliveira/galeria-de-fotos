@@ -21,10 +21,6 @@ Aplicação web responsiva que renderiza uma galeria de bandeiras dos estados br
 └── imgs/             # Assets (Bandeiras)
 ```
 
-# Galeria de Bandeiras - Brasil 🇧🇷
-
-Este projeto foi desenvolvido como requisito para a disciplina de Desenvolvimento Web. O objetivo é criar uma interface funcional que demonstre o uso de tecnologias fundamentais de Front-end para manipulação de dados e interface.
-
 ## 🚀 Como Executar
 
 Para rodar o projeto na sua máquina, siga os passos abaixo:
