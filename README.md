@@ -16,8 +16,8 @@ Aplicação web responsiva que renderiza uma galeria de bandeiras dos estados br
 ```text
 /
 ├── index.html        # Estrutura principal
-├── Mstyle.css        # Estilização e Grid
-├── Mscript.js        # Lógica de busca e renderização
+├── style.css        # Estilização e Grid
+├── script.js        # Lógica de busca e renderização
 └── imgs/             # Assets (Bandeiras)
 ```
 
@@ -31,7 +31,7 @@ Para rodar o projeto na sua máquina, siga os passos abaixo:
 
 1. **Clone o repositório** ou baixe os arquivos:
    ```bash
-   git clone [https://github.com/seu-usuario/nome-do-seu-repositorio.git](https://github.com/seu-usuario/nome-do-seu-repositorio.git)
-Verifique a estrutura: Certifique-se de que a pasta de imagens (/imgs) está no mesmo diretório que os arquivos de código (index.html, Mstyle.css, Mscript.js).
+git clone [https://github.com/seu-usuario/nome-do-seu-repositorio.git](https://github.com/seu-usuario/nome-do-seu-repositorio.git)
+Verifique a estrutura: Certifique-se de que a pasta de imagens (/imgs) está no mesmo diretório que os arquivos de código (index.html, style.css, script.js).
 
 Abra a aplicação: Localize o arquivo index.html e abra-o em qualquer navegador moderno.
