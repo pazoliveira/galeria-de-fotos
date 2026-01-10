@@ -18,6 +18,7 @@ Aplicação web responsiva que renderiza uma galeria de bandeiras dos estados br
 ├── index.html        # Estrutura principal
 ├── style.css        # Estilização e Grid
 ├── script.js        # Lógica de busca e renderização
+├── README.md         # Instruções de uso
 └── imgs/             # Assets (Bandeiras)
 ```
 
