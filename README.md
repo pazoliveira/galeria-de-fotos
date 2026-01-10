@@ -43,11 +43,11 @@ Uma aplicação web que exibe uma galeria de fotos das bandeiras dos Estados Bra
 
 ## 🚀 Como Executar
 
-| Passo | Modo Manual | Modo Terminal (Git) |
-| :--- | :--- | :--- |
-| **1. Obter código** | [Baixar ZIP](https://github.com/pazoliveira/galeria-de-fotos/archive/refs/heads/main.zip) | `git clone https://github.com/pazoliveira/galeria-de-fotos.git` |
-| **2. Acessar** | Extrair o arquivo e abrir a pasta. | `cd galeria-de-fotos` |
-| **3. Rodar** | Abrir `index.html` no navegador. | `start index.html` (Windows) ou `open index.html` (Mac) |
+| Passo | Comando / Ação |
+| :--- | :--- |
+| **1. Obter código** | `git clone https://github.com/pazoliveira/agil-store.git` |
+| **2. Acessar pasta** | `cd agil-store` |
+| **3. Iniciar Sistema** | `node index.js` |
 
 ---
 **Autor:** Diego Oliveira - PUCRS 2026
