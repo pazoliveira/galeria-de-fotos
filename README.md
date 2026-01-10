@@ -1,34 +1,53 @@
-# Galeria de Bandeiras - Brasil
+# Aplicação de Galeria de Fotos - Bandeiras dos Estados Brasileiros
 
-Aplicação web responsiva que renderiza uma galeria de bandeiras dos estados brasileiros a partir de um conjunto de dados JSON, permitindo filtragem em tempo real.
+Uma aplicação web que exibe uma galeria de fotos das bandeiras dos Estados Brasileiros, permitindo que os usuários visualizem, filtrem e pesquisem imagens com base em palavras-chave. 
 
-## 💻 Tecnologias
-* **HTML5**: Estruturação semântica.
-* **CSS3**: Layout via **CSS Grid** e **Flexbox** para responsividade.
-* **JavaScript (ES6+)**: Manipulação dinâmica do DOM e métodos de array (`filter`, `forEach`).
+<div align="center">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+</div>
 
-## ⚙️ Funcionalidades
-* **Renderização Dinâmica**: Os cartões de fotos são gerados via JavaScript, evitando repetição de código no HTML.
-* **Search Engine**: Filtro *case-insensitive* que atualiza o grid a cada tecla digitada (evento de `input`).
-* **Interface Responsiva**: Grid adaptável que ajusta o número de colunas conforme a largura da tela (uso de `minmax` e `auto-fill`).
+## 📋 Funcionalidades e Requisitos
 
-## 📂 Estrutura de Pastas
+| Item | Descrição da Implementação |
+| :--- | :--- |
+| **Cabeçalho** | Título "Galeria de Fotos" centralizado no topo. |
+| **Layout Grid** | Galeria organizada em grade responsiva. |
+| **Interatividade** | Efeito de escala e sombra (hover) nos cartões de fotos. |
+| **Barra de Busca** | Campo de pesquisa com ícone de lupa acima do grid. |
+| **Filtro em Tempo Real** | Busca dinâmica por nome enquanto o usuário digita. |
+| **Retorno** | Exibição de "Nenhuma foto encontrada" para buscas sem resultado. |
+| **Dados** | Conjunto de 27 dados estáticos (Bandeiras dos Estados). |
+| **Responsividade** | Adaptação total para diferentes tamanhos de tela. |
+
+## 🛠️ Tecnologias
+
+| Tecnologia | Utilização |
+| :--- | :--- |
+| **HTML5** | Estrutura e semântica. |
+| **CSS3** | Layout (Grid/Flexbox) e animações. |
+| **JS (ES6)** | Lógica de busca e renderização dinâmica. |
+
+ ## 📂 Estrutura de Pastas
+
 ```text
 /
-├── index.html        # Estrutura principal
-├── style.css        # Estilização e Grid
-├── script.js        # Lógica de busca e renderização
-├── README.md         # Instruções de uso
-└── imgs/             # Assets (Bandeiras)
+├── index.html         # Estrutura principal e esqueleto da aplicação
+├── style.css          # Regras de design, grid responsivo e animações
+├── script.js          # Motor da aplicação (lógica de filtragem e renderização)
+├── README.md          # Documentação técnica do projeto
+└── imgs/              # Repositório local das bandeiras estaduais
+
 ```
 
 ## 🚀 Como Executar
 
-Para rodar o projeto na sua máquina, siga os passos abaixo:
+| Passo | Modo Manual | Modo Terminal (Git) |
+| :--- | :--- | :--- |
+| **1. Obter código** | [Baixar ZIP](https://github.com/pazoliveira/galeria-de-fotos/archive/refs/heads/main.zip) | `git clone https://github.com/pazoliveira/galeria-de-fotos.git` |
+| **2. Acessar** | Extrair o arquivo e abrir a pasta. | `cd galeria-de-fotos` |
+| **3. Rodar** | Abrir `index.html` no navegador. | `start index.html` (Windows) ou `open index.html` (Mac) |
 
-1. **Clone o repositório** ou baixe os arquivos:
-   ```bash
-   git clone https://github.com/pazoliveira/galeria-de-fotos
-Verifique a estrutura: Certifique-se de que a pasta de imagens (/imgs) está no mesmo diretório que os arquivos de código (index.html, style.css, script.js).
-
-Abra a aplicação: Localize o arquivo index.html e abra-o em qualquer navegador moderno.
+---
+**Autor:** Diego Oliveira - PUCRS 2026
